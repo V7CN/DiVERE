@@ -100,6 +100,7 @@ class ShortcutHelpDialog(QDialog):
 <li>Shift+空格：AI多次校色</li>
 <li>Ctrl/Cmd+V：快速重置所有参数</li>
 <li>Ctrl/Cmd+=：添加新裁剪区域</li>
+<li>Ctrl/Cmd+鼠标选中：删除选中裁切区域</li>
 <li>↑/↓箭头：切换裁剪区域</li>
 <li>支持全角和半角括号进行旋转操作</li>
 </ul>
@@ -191,6 +192,7 @@ class ShortcutHelpDialog(QDialog):
             ("↑ 上箭头", "向上切换裁剪", "在裁剪区域间向上循环切换"),
             ("↓ 下箭头", "向下切换裁剪", "在裁剪区域间向下循环切换"),
             ("Ctrl/Cmd+=", "添加新裁剪", "添加新的裁剪区域（相当于点击+按钮）"),
+            ("Ctrl/Cmd+鼠标选中", "删除选中裁切", "删除鼠标所选的裁切区域")
             
             # 参数管理
             ("Ctrl/Cmd+V", "重置参数", "将所有调色参数重置为默认值"),
